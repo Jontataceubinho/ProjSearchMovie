@@ -1,0 +1,147 @@
+body {
+    background-color: #2a3457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    align-items: center;
+    background-color: #16235a;
+    width: 50%;
+    padding: 50px 30px;
+    border-radius: 10px;
+
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-text {
+    margin-right: 1.5rem;
+}
+
+#button {
+    background-color: #edf259;
+}
+
+p,
+span,
+h2,
+h4 {
+    color: white;
+    margin-right: 10%;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.genero-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#star {
+    color: yellow;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+}
+
+#poster {
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: 10px solid black;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+#movie-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#content2 {
+    display: grid;
+    padding: 10px;
+    width: 40%;
+}
+
+#description2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+.genero {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.nomefilme {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        align-items: center;
+        background-color: #16235a;
+        width: 95%;
+        border-radius: 10px;
+        padding: 20px 5px;
+    }
+
+    #poster {
+        border-radius: 10px;
+        height: 300px;
+        width: 96%;
+        margin-bottom: 2rem;
+    }
+
+    #content2 {
+        display: grid;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    .info-container {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    #movie-content {
+        display: flex;
+        align-items: center;
+    }
+
+    #content2 {
+        display: grid;
+        width: 40%;
+    }
+
+    .genero-container {
+        display: block;
+    }
+}
